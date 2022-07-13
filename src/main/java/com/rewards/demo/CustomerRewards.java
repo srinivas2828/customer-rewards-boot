@@ -6,16 +6,9 @@ import org.springframework.util.StringUtils;
 
 public class CustomerRewards {
 	
-	
-
-	
 	 private String name;
 	 int rewards[];
-	 
-	    
 
-		
-	    
 	    public CustomerRewards(String name) {
 	            this.name = name;
 	            this.rewards = new int[13]; //rewars[0] is empty,rewards[1]=10 means first month(january)
