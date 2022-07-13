@@ -22,7 +22,7 @@ public class CustomerRewards {
 	    }
 	    
 	   public  void addReward(int month, int reward) {
-	            rewards[month] = reward;
+	            rewards[month] = rewards[month] + reward;
 	    }
 	    
 	    public String getName() {
